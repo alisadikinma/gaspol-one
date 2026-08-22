@@ -31,10 +31,10 @@
     },
     {
       "name": "gaspol-catalog",
-      "description": "4 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: master catalog once, per-prospect variant many times, and a two-layer blocking gate that reviews the text AND the rendered image. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
-      "version": "0.1.0",
+      "description": "6 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: interview first, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, and a two-layer blocking gate that reviews the text AND the rendered image. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
+      "version": "0.3.0",
       "category": "productivity",
-      "keywords": ["sales-deck", "b2b-sales", "proposal", "catalog", "offer", "render-review"],
+      "keywords": ["sales-deck", "b2b-sales", "discovery-interview", "proposal", "catalog", "offer", "render-review"],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-catalog.git"
