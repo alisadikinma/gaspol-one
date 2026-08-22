@@ -1,0 +1,44 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gaspol-one",
+  "description": "The GASPOL suite in one marketplace — ship code (gaspol-dev), raise money (gaspol-pitch), and sell to operations buyers (gaspol-catalog). Every plugin gates its output behind an adversarial review that blocks weak work before it leaves your machine.",
+  "owner": {
+    "name": "Ali Sadikin",
+    "url": "https://github.com/alisadikinma"
+  },
+  "plugins": [
+    {
+      "name": "gaspol-dev",
+      "description": "21 skills + 4 agents for execution fidelity: anti-placeholder enforcement, step-level closure gate, cross-project knowledge base, industry research grounding, eval-driven development, git-worktree isolation, an always-on laziness ladder, and an auto-trigger bootstrap. Design intelligence delegates to the ui-ux-pro-max plugin; security review delegates to the CLI built-in /security-review.",
+      "version": "1.19.0",
+      "category": "productivity",
+      "keywords": ["skills", "anti-placeholder", "plan-verification", "tdd", "code-review", "debugging"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-dev.git"
+      }
+    },
+    {
+      "name": "gaspol-pitch",
+      "description": "7 skills orchestrating investor/accelerator pitch decks: discovery -> narrative -> draft -> adversarial investor review -> visual -> finish. Reuses installed marketing skills as the engine; the differentiator is a rubric-driven skeptic-investor linter that scores and blocks a weak deck before you send it. Outputs a Marp markdown deck + one nano-banana-pro image prompt per slide (MCP-optional).",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["pitch-deck", "investor", "fundraising", "venture-capital", "adversarial-review"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-pitch.git"
+      }
+    },
+    {
+      "name": "gaspol-catalog",
+      "description": "4 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: master catalog once, per-prospect variant many times, and a two-layer blocking gate that reviews the text AND the rendered image. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["sales-deck", "b2b-sales", "proposal", "catalog", "offer", "render-review"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-catalog.git"
+      }
+    }
+  ]
+}
