@@ -25,7 +25,7 @@ To install from a local checkout instead:
 |---|---|---|
 | [gaspol-dev](https://github.com/alisadikinma/gaspol-dev) | 1.19.0 | 21 skills + 4 agents for execution fidelity — anti-placeholder enforcement, plan verification, TDD, debugging, worktree isolation, cross-project knowledge base, auto-trigger bootstrap. |
 | [gaspol-pitch](https://github.com/alisadikinma/gaspol-pitch) | 0.1.0 | 7 skills for investor/accelerator pitch decks — discovery, narrative, draft, adversarial investor review, visual, finish. Marp deck + per-slide image prompts. |
-| [gaspol-catalog](https://github.com/alisadikinma/gaspol-catalog) | 0.4.0 | 6 skills for B2B sales catalogs and offer decks — reads your own knowledge base first and interviews only the gaps, then storyline, master catalog once, per-prospect variants many times, render-prompt authoring, two-layer text + rendered-image gate. |
+| [gaspol-catalog](https://github.com/alisadikinma/gaspol-catalog) | 0.5.0 | 7 skills for B2B sales catalogs and offer decks — a loop: reads your own knowledge base first, interviews only the gaps, and writes back what the deal taught, then storyline, master catalog once, per-prospect variants many times, render-prompt authoring, two-layer text + rendered-image gate. |
 
 ## The common thread
 
