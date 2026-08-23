@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "gaspol-dev",
-      "description": "17 skills + 4 agents that make Claude Code run its checks instead of reading its code: a per-phase verification loop (baseline, then fail-fast typecheck/unit/build before every checkpoint), a Live App Check that actually launches the app — web through the Playwright MCP, mobile through adb on a real device or emulator — plus a geometry diff against a data-vv-marked canvas, a regression gate that blocks a bug fix with no checked regression test, anti-placeholder enforcement, an always-on completeness ladder, a batch gate so one report mints one ticket, a blocking design-artifact gate that covers logic-only work, step-level plan verification, git-worktree isolation, a cross-project knowledge base, and an auto-trigger bootstrap. A check that did not run is never recorded as passed. Design intelligence delegates to the ui-ux-pro-max plugin; security review to the CLI built-in /security-review.",
-      "version": "1.24.0",
+      "description": "17 skills + 4 agents that make Claude Code run its checks instead of reading its code: a per-phase verification loop (baseline, then fail-fast typecheck/unit/build before every checkpoint), a Live App Check that actually launches the app — web through the Playwright MCP, mobile through adb on a real device or emulator — plus a geometry diff against a data-vv-marked canvas, a regression gate that blocks a bug fix with no checked regression test, anti-placeholder enforcement, an always-on completeness ladder, a batch gate so one report mints one ticket, a post-plan design-artifact offer whose refusal must carry a written reason, step-level plan verification, git-worktree isolation, a cross-project knowledge base, and an auto-trigger bootstrap. A check that did not run is never recorded as passed. Design intelligence delegates to the ui-ux-pro-max plugin; security review to the CLI built-in /security-review.",
+      "version": "1.25.0",
       "category": "productivity",
       "keywords": ["skills", "anti-placeholder", "plan-verification", "tdd", "code-review", "debugging"],
       "source": {
