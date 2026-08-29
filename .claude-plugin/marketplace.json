@@ -30,6 +30,17 @@
       }
     },
     {
+      "name": "gaspol-ebook",
+      "description": "Orchestrates non-fiction ebook production for Amazon KDP: brainstorm -> market research -> outline -> write -> blocking quality review -> cover -> publish. Phase skills are thin and reuse already-installed marketing skills; the differentiator is a quality gate that refuses to export a manuscript containing invented facts, unsourced claims, or promises the outline made and the text never kept.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["ebook", "kdp", "amazon", "kindle", "self-publishing", "non-fiction", "epub", "niche-research", "quality-gate"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-ebook.git"
+      }
+    },
+    {
       "name": "gaspol-catalog",
       "description": "7 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: reads your own knowledge base first and interviews only the gaps, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, a two-layer blocking gate that reviews the text AND the rendered image, and a finish phase that writes what was learned back. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
       "version": "0.5.0",
