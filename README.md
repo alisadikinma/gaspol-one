@@ -29,7 +29,7 @@ To install from a local checkout instead:
 | [gaspol-pitch](https://github.com/alisadikinma/gaspol-pitch) | 0.1.0 | 7 skills for investor/accelerator pitch decks — discovery, narrative, draft, adversarial investor review, visual, finish. Marp deck + per-slide image prompts. |
 | [gaspol-catalog](https://github.com/alisadikinma/gaspol-catalog) | 0.5.0 | 7 skills for B2B sales catalogs and offer decks — a loop: reads your own knowledge base first, interviews only the gaps, and writes back what the deal taught, then storyline, master catalog once, per-prospect variants many times, render-prompt authoring, two-layer text + rendered-image gate. |
 | [gaspol-ebook](https://github.com/alisadikinma/gaspol-ebook) | 0.1.0 | 7 skills for non-fiction ebook production on Amazon KDP — brainstorm, market research, outline, write, blocking quality review, cover, publish. Refuses to export a manuscript with invented facts or promises the outline made and the text never kept. |
-| [gaspol-video](https://github.com/alisadikinma/gaspol-video) | 3.0.0 | 10 skills + 2 agents that carry a promotional video from an idea to a finished, mixed file — script, NB2 image prompts, VEO/Seedance/Kling video prompts, Remotion shots for scenes that must be readable, then voice-over, ffmpeg assembly, SFX, captions, music, mix, and packaging. |
+| [gaspol-video](https://github.com/alisadikinma/gaspol-video) | 3.2.0 | 10 skills + 2 agents that carry a promotional video from an idea to a finished, mixed file — script, NB2 image prompts, VEO/Seedance/Kling video prompts, Remotion shots for scenes that must be readable, then voice-over, ffmpeg assembly, SFX, captions, music, mix, and packaging. |
 
 ## The common thread
 
