@@ -61,6 +61,17 @@
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-video.git"
       }
+    },
+    {
+      "name": "ai-jobhunter",
+      "description": "End-to-end job-hunting pipeline: discover roles from ATS APIs and boards, score them against a runtime-supplied candidate profile, write a CV and cover letter for one specific job description, draft recruiter outreach as a Gmail draft or .eml fallback, and promote the roles worth pursuing into a self-hosted jobsync tracker over MCP. Never auto-applies and never submits a form. Nothing candidate-specific ships in the plugin; every personal value arrives at runtime from .jobhunter/config.toml in the user's own project.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["job-search", "job-hunting", "career", "ats", "resume", "cover-letter", "outreach", "jobsync"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/ai-jobhunter.git"
+      }
     }
   ]
 }
