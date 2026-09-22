@@ -1,6 +1,6 @@
 # gaspol-one
 
-One marketplace for the GASPOL suite: **build it** (`gaspol-dev`), **fund it** (`gaspol-pitch`), **sell it** (`gaspol-catalog`), **write it** (`gaspol-ebook`), **film it** (`gaspol-video`).
+One marketplace for the GASPOL suite: **build it** (`gaspol-dev`), **fund it** (`gaspol-pitch`), **sell it** (`gaspol-catalog`), **write it** (`gaspol-ebook`), **film it** (`gaspol-video`), **land the job** (`gaspol-jobhunter`).
 
 Each plugin lives in its own repository; this marketplace only points at them, so installing from here is identical to installing from each repo — you just add one source instead of three.
 
@@ -13,6 +13,7 @@ Each plugin lives in its own repository; this marketplace only points at them, s
 /plugin install gaspol-catalog@gaspol-one
 /plugin install gaspol-ebook@gaspol-one
 /plugin install gaspol-video@gaspol-one
+/plugin install gaspol-jobhunter@gaspol-one
 ```
 
 To install from a local checkout instead:
@@ -30,10 +31,11 @@ To install from a local checkout instead:
 | [gaspol-catalog](https://github.com/alisadikinma/gaspol-catalog) | 0.5.0 | 7 skills for B2B sales catalogs and offer decks — a loop: reads your own knowledge base first, interviews only the gaps, and writes back what the deal taught, then storyline, master catalog once, per-prospect variants many times, render-prompt authoring, two-layer text + rendered-image gate. |
 | [gaspol-ebook](https://github.com/alisadikinma/gaspol-ebook) | 0.1.0 | 7 skills for non-fiction ebook production on Amazon KDP — brainstorm, market research, outline, write, blocking quality review, cover, publish. Refuses to export a manuscript with invented facts or promises the outline made and the text never kept. |
 | [gaspol-video](https://github.com/alisadikinma/gaspol-video) | 3.4.0 | 10 skills + 2 agents that carry a promotional video from an idea to a finished, mixed file — script, NB2 image prompts, VEO/Seedance/Kling video prompts, Remotion shots for scenes that must be readable, then voice-over, ffmpeg assembly, SFX, captions, music, mix, and packaging. |
+| [gaspol-jobhunter](https://github.com/alisadikinma/ai-jobhunter) | 0.2.0 | 6 skills for job hunting — build a sourced master CV (PDF, notes, sites), discover and score roles, then tailor a CV and cover letter to one job description: every requirement is mapped to evidence and agreed with you before anything is written, gaps are never invented, output is an ATS-readable PDF. Never auto-applies. |
 
 ## The common thread
 
-Every one of them blocks on an adversarial review before output ships: `gaspol-dev` refuses placeholder data and unverified completion claims, `gaspol-pitch` runs a skeptic-investor linter, `gaspol-catalog` reviews both the copy and the rendered image, `gaspol-ebook` refuses a manuscript carrying invented facts, and `gaspol-video` runs an independent prompt reviewer plus a user audit of the SFX cue sheet before anything is mixed. `gaspol-catalog` reuses `gaspol-pitch`'s review engine with a different rubric.
+Every one of them blocks on an adversarial review before output ships: `gaspol-dev` refuses placeholder data and unverified completion claims, `gaspol-pitch` runs a skeptic-investor linter, `gaspol-catalog` reviews both the copy and the rendered image, `gaspol-ebook` refuses a manuscript carrying invented facts, `gaspol-video` runs an independent prompt reviewer plus a user audit of the SFX cue sheet before anything is mixed, and `gaspol-jobhunter` refuses to render a CV still carrying an unverified claim. `gaspol-catalog` reuses `gaspol-pitch`'s review engine with a different rubric.
 
 They are independent — install any one alone.
 
