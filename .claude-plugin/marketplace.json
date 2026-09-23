@@ -65,7 +65,7 @@
     {
       "name": "gaspol-jobhunter",
       "description": "End-to-end job-hunting pipeline: discover roles from ATS APIs, boards and LinkedIn, score them against a runtime-supplied candidate profile, write a CV and cover letter for one specific job description, draft recruiter outreach as a Gmail draft or .eml fallback, and promote the roles worth pursuing into a self-hosted jobsync tracker over MCP. Never auto-applies and never submits a form. Nothing candidate-specific ships in the plugin; every personal value arrives at runtime from .jobhunter/config.toml in the user's own project.",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "category": "productivity",
       "keywords": ["job-search", "job-hunting", "career", "ats", "greenhouse", "lever", "ashby", "linkedin", "resume", "cv", "cover-letter", "outreach", "jobsync", "firecrawl", "apify", "pipeline"],
       "source": {
