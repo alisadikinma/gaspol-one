@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "gaspol-one",
-  "description": "The GASPOL suite in one marketplace — ship code (gaspol-dev), raise money (gaspol-pitch), and sell to operations buyers (gaspol-catalog). Every plugin gates its output behind an adversarial review that blocks weak work before it leaves your machine.",
+  "description": "The GASPOL suite in one marketplace — ship code (gaspol-dev), raise money (gaspol-pitch), sell to operations buyers (gaspol-catalog), and write the requirements the client signs (gaspol-brdwriter). Every plugin gates its output behind an adversarial review that blocks weak work before it leaves your machine.",
   "owner": {
     "name": "Ali Sadikin",
     "url": "https://github.com/alisadikinma"
@@ -71,6 +71,17 @@
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-jobhunter.git"
+      }
+    },
+    {
+      "name": "gaspol-brdwriter",
+      "description": "5 skills that write a client-signable Business Requirements Document per IIBA BABOK v3 and ISO/IEC/IEEE 29148, plus the commercial section the client signs (scope, price, payment terms tied to verifiable milestones, acceptance, sign-off): reads your knowledge base first and interviews only the gaps, drafts a full BR -> SR -> FR/NFR trace chain, then an 8-check blocking gate before any .docx is rendered. Never invents a price, a client figure, or a client system name.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["brd", "business-requirements", "babok", "ieee-29148", "requirements-engineering", "proposal", "docx", "quality-gate"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-brdwriter.git"
       }
     }
   ]

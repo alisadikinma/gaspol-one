@@ -1,6 +1,6 @@
 # gaspol-one
 
-One marketplace for the GASPOL suite: **build it** (`gaspol-dev`), **fund it** (`gaspol-pitch`), **sell it** (`gaspol-catalog`), **write it** (`gaspol-ebook`), **film it** (`gaspol-video`), **land the job** (`gaspol-jobhunter`).
+One marketplace for the GASPOL suite: **build it** (`gaspol-dev`), **fund it** (`gaspol-pitch`), **sell it** (`gaspol-catalog`), **write it** (`gaspol-ebook`), **film it** (`gaspol-video`), **land the job** (`gaspol-jobhunter`), **scope the deal** (`gaspol-brdwriter`).
 
 Each plugin lives in its own repository; this marketplace only points at them, so installing from here is identical to installing from each repo — you just add one source instead of three.
 
@@ -14,6 +14,7 @@ Each plugin lives in its own repository; this marketplace only points at them, s
 /plugin install gaspol-ebook@gaspol-one
 /plugin install gaspol-video@gaspol-one
 /plugin install gaspol-jobhunter@gaspol-one
+/plugin install gaspol-brdwriter@gaspol-one
 ```
 
 To install from a local checkout instead:
@@ -32,10 +33,11 @@ To install from a local checkout instead:
 | [gaspol-ebook](https://github.com/alisadikinma/gaspol-ebook) | 0.1.0 | 7 skills for non-fiction ebook production on Amazon KDP — brainstorm, market research, outline, write, blocking quality review, cover, publish. Refuses to export a manuscript with invented facts or promises the outline made and the text never kept. |
 | [gaspol-video](https://github.com/alisadikinma/gaspol-video) | 3.4.0 | 10 skills + 2 agents that carry a promotional video from an idea to a finished, mixed file — script, NB2 image prompts, VEO/Seedance/Kling video prompts, Remotion shots for scenes that must be readable, then voice-over, ffmpeg assembly, SFX, captions, music, mix, and packaging. |
 | [gaspol-jobhunter](https://github.com/alisadikinma/gaspol-jobhunter) | 0.5.7 | 6 skills for job hunting — build a sourced master CV (PDF, notes, sites), discover roles from ATS APIs, boards and LinkedIn (Apify), score them, promote the ones worth pursuing into a self-hosted jobsync tracker, then tailor a CV and cover letter to one job description: every requirement is mapped to evidence and agreed with you before anything is written, gaps are never invented, output is an ATS-readable PDF. Outreach drafts only, no send path. Never auto-applies. |
+| [gaspol-brdwriter](https://github.com/alisadikinma/gaspol-brdwriter) | 0.1.0 | 5 skills for client-signable Business Requirements Documents — BABOK v3 / IEEE 29148 requirements plus the commercial section the client signs. Reads your knowledge base first, interviews only the gaps, drafts a full trace chain, then an 8-check blocking gate before the .docx is rendered. Never invents a price, a client figure, or a system name.
 
 ## The common thread
 
-Every one of them blocks on an adversarial review before output ships: `gaspol-dev` refuses placeholder data and unverified completion claims, `gaspol-pitch` runs a skeptic-investor linter, `gaspol-catalog` reviews both the copy and the rendered image, `gaspol-ebook` refuses a manuscript carrying invented facts, `gaspol-video` runs an independent prompt reviewer plus a user audit of the SFX cue sheet before anything is mixed, and `gaspol-jobhunter` refuses to render a CV still carrying an unverified claim. `gaspol-catalog` reuses `gaspol-pitch`'s review engine with a different rubric.
+Every one of them blocks on an adversarial review before output ships: `gaspol-dev` refuses placeholder data and unverified completion claims, `gaspol-pitch` runs a skeptic-investor linter, `gaspol-catalog` reviews both the copy and the rendered image, `gaspol-ebook` refuses a manuscript carrying invented facts, `gaspol-video` runs an independent prompt reviewer plus a user audit of the SFX cue sheet before anything is mixed, `gaspol-jobhunter` refuses to render a CV still carrying an unverified claim, and `gaspol-brdwriter` refuses to render a BRD whose payment terms do not sum to 100% or whose numbers carry no source. `gaspol-catalog` reuses `gaspol-pitch`'s review engine with a different rubric.
 
 They are independent — install any one alone.
 
