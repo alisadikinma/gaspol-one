@@ -76,7 +76,7 @@
     {
       "name": "gaspol-brdwriter",
       "description": "5 skills that write a client-signable Business Requirements Document per IIBA BABOK v3 and ISO/IEC/IEEE 29148, plus the commercial section the client signs (scope, price, payment terms tied to verifiable milestones, acceptance, sign-off): reads your knowledge base first and interviews only the gaps, drafts a full BR -> SR -> FR/NFR trace chain, then an 8-check blocking gate before any .docx is rendered. Never invents a price, a client figure, or a client system name.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productivity",
       "keywords": ["brd", "business-requirements", "babok", "ieee-29148", "requirements-engineering", "proposal", "docx", "quality-gate"],
       "source": {
