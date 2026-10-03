@@ -87,7 +87,7 @@
     {
       "name": "gaspol-kontrakkerja",
       "description": "Drafts Indonesian employment contracts (PKWT, PKWTT), freelancer service agreements and an IP / confidentiality attachment (NDA, IP assignment, non-compete) for a software house: interviews the facts, decides the right contract type from the facts rather than the title, drafts from a clause library where every clause carries a cited Indonesian legal basis, and a blocking gate rejects fragile or unlawful clauses before a PDF and DOCX are rendered. 5 skills, 42-clause library backed by NotebookLM research, output PDF and DOCX on letterhead. Specific to PT INDUSIA; the PKWT basis must be re-researched once a new UU Ketenagakerjaan is issued.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "productivity",
       "keywords": ["kontrak", "ketenagakerjaan", "pkwt", "freelancer", "nda", "hki", "indonesia", "quality-gate"],
       "source": {
