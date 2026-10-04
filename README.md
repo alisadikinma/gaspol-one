@@ -16,6 +16,7 @@ Each plugin lives in its own repository; this marketplace only points at them, s
 /plugin install gaspol-jobhunter@gaspol-one
 /plugin install gaspol-brdwriter@gaspol-one
 /plugin install gaspol-kontrakkerja@gaspol-one
+/plugin install gaspol-fleetadvisor@gaspol-one
 ```
 
 To install from a local checkout instead:
@@ -36,6 +37,7 @@ To install from a local checkout instead:
 | [gaspol-jobhunter](https://github.com/alisadikinma/gaspol-jobhunter) | 0.5.7 | 6 skills for job hunting — build a sourced master CV (PDF, notes, sites), discover roles from ATS APIs, boards and LinkedIn (Apify), score them, promote the ones worth pursuing into a self-hosted jobsync tracker, then tailor a CV and cover letter to one job description: every requirement is mapped to evidence and agreed with you before anything is written, gaps are never invented, output is an ATS-readable PDF. Outreach drafts only, no send path. Never auto-applies. |
 | [gaspol-brdwriter](https://github.com/alisadikinma/gaspol-brdwriter) | 0.1.1 | 5 skills for client-signable Business Requirements Documents — BABOK v3 / IEEE 29148 requirements plus the commercial section the client signs. Reads your knowledge base first, interviews only the gaps, drafts a full trace chain, then an 8-check blocking gate before the .docx is rendered. Never invents a price, a client figure, or a system name.
 | [gaspol-kontrakkerja](https://github.com/alisadikinma/gaspol-kontrakkerja) | 0.1.2 | Indonesian employment contracts (PKWT, PKWTT), freelancer agreements and an IP / confidentiality attachment, every clause with a cited legal basis and a blocking gate before PDF + DOCX. Specific to PT INDUSIA. |
+| [gaspol-fleetadvisor](https://github.com/alisadikinma/gaspol-fleetadvisor) | 0.1.0 | Fleet and transport domain advisor — one entry skill and two reviewer agents (deck, spec) over a researched knowledge base: FMS modules and KPIs, tires, workshop and parts, cost per km, tender pricing, adoption, enhance-vs-replace. Private repository. |
 
 ## The common thread
 

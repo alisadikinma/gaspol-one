@@ -94,6 +94,17 @@
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-kontrakkerja.git"
       }
+    },
+    {
+      "name": "gaspol-fleetadvisor",
+      "description": "Fleet and transport domain advisor: consult it while designing a fleet module or drafting a proposal, catalog or sales film for a trucking, freight-forwarding, bus or heavy-equipment prospect. One entry skill plus two reviewer agents (deck, spec) over a researched knowledge base: FMS modules and KPIs, tires, workshop and parts, cost per km, tender pricing, adoption, enhance-vs-replace. Private repository.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["fleet-management", "trucking", "logistics", "domain-advisor", "proposal-review", "spec-review"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/gaspol-fleetadvisor.git"
+      }
     }
   ]
 }
