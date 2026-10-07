@@ -43,7 +43,7 @@
     {
       "name": "gaspol-catalog",
       "description": "7 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: reads your own knowledge base first and interviews only the gaps, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, a two-layer blocking gate that reviews the text AND the rendered image, and a finish phase that writes what was learned back. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "category": "productivity",
       "keywords": ["sales-deck", "b2b-sales", "discovery-interview", "proposal", "catalog", "offer", "render-review"],
       "source": {
@@ -98,7 +98,7 @@
     {
       "name": "gaspol-fleetadvisor",
       "description": "Fleet and transport domain advisor: consult it while designing a fleet module or drafting a proposal, catalog or sales film for a trucking, freight-forwarding, bus or heavy-equipment prospect. One entry skill plus two reviewer agents (deck, spec) over a researched knowledge base: FMS modules and KPIs, tires, workshop and parts, cost per km, tender pricing, adoption, enhance-vs-replace. Private repository.",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "category": "productivity",
       "keywords": ["fleet-management", "trucking", "logistics", "domain-advisor", "proposal-review", "spec-review"],
       "source": {
