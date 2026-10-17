@@ -43,7 +43,7 @@
     {
       "name": "gaspol-catalog",
       "description": "7 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: reads your own knowledge base first and interviews only the gaps, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, a two-layer blocking gate that reviews the text AND the rendered image, and a finish phase that writes what was learned back. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
-      "version": "0.7.0",
+      "version": "0.9.0",
       "category": "productivity",
       "keywords": ["sales-deck", "b2b-sales", "discovery-interview", "proposal", "catalog", "offer", "render-review"],
       "source": {
@@ -54,7 +54,7 @@
     {
       "name": "gaspol-video",
       "description": "Carries a promotional video from an idea to a finished, mixed file: brainstorm, A/V script with a 7-beat arc, NB2 image prompts, video prompts for VEO 3.1 / Seedance 2.0 / Kling 3.0, Remotion shots for the scenes that must be readable because no video platform renders legible text, then five post-production passes (ElevenLabs voice-over, ffmpeg assembly under an A/V duration gate, domain-aware SFX with a measured audibility gate, captions whose text comes from the script, a music bed that ducks under the voice) and packaging: one locked title, three thumbnail bets on different levers, one description.",
-      "version": "3.11.1",
+      "version": "3.19.0",
       "category": "productivity",
       "keywords": ["video", "veo", "seedance", "kling", "nano-banana", "remotion", "elevenlabs", "ffmpeg", "post-production", "promotional-video"],
       "source": {
