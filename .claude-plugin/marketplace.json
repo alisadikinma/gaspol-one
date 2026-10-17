@@ -12,7 +12,14 @@
       "description": "17 skills + 4 agents that make Claude Code run its checks instead of reading its code: a per-phase verification loop (baseline, then fail-fast typecheck/unit/build before every checkpoint), a Live App Check that actually launches the app — web through the Playwright MCP, mobile through adb on a real device or emulator — plus a geometry diff against a data-vv-marked canvas, a regression gate that blocks a bug fix with no checked regression test, anti-placeholder enforcement, an always-on completeness ladder, a batch gate so one report mints one ticket, a post-plan design-artifact offer whose refusal must carry a written reason, step-level plan verification, git-worktree isolation, a cross-project knowledge base, and an auto-trigger bootstrap. A check that did not run is never recorded as passed. Design intelligence delegates to the ui-ux-pro-max plugin; security review to the CLI built-in /security-review.",
       "version": "1.29.0",
       "category": "productivity",
-      "keywords": ["skills", "anti-placeholder", "plan-verification", "tdd", "code-review", "debugging"],
+      "keywords": [
+        "skills",
+        "anti-placeholder",
+        "plan-verification",
+        "tdd",
+        "code-review",
+        "debugging"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-dev.git"
@@ -23,7 +30,13 @@
       "description": "7 skills orchestrating investor/accelerator pitch decks: discovery -> narrative -> draft -> adversarial investor review -> visual -> finish. Reuses installed marketing skills as the engine; the differentiator is a rubric-driven skeptic-investor linter that scores and blocks a weak deck before you send it. Outputs a Marp markdown deck + one nano-banana-pro image prompt per slide (MCP-optional).",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["pitch-deck", "investor", "fundraising", "venture-capital", "adversarial-review"],
+      "keywords": [
+        "pitch-deck",
+        "investor",
+        "fundraising",
+        "venture-capital",
+        "adversarial-review"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-pitch.git"
@@ -34,7 +47,17 @@
       "description": "Orchestrates non-fiction ebook production for Amazon KDP: brainstorm -> market research -> outline -> write -> blocking quality review -> cover -> publish. Phase skills are thin and reuse already-installed marketing skills; the differentiator is a quality gate that refuses to export a manuscript containing invented facts, unsourced claims, or promises the outline made and the text never kept.",
       "version": "0.1.0",
       "category": "productivity",
-      "keywords": ["ebook", "kdp", "amazon", "kindle", "self-publishing", "non-fiction", "epub", "niche-research", "quality-gate"],
+      "keywords": [
+        "ebook",
+        "kdp",
+        "amazon",
+        "kindle",
+        "self-publishing",
+        "non-fiction",
+        "epub",
+        "niche-research",
+        "quality-gate"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-ebook.git"
@@ -45,7 +68,15 @@
       "description": "7 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: reads your own knowledge base first and interviews only the gaps, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, a two-layer blocking gate that reviews the text AND the rendered image, and a finish phase that writes what was learned back. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
       "version": "0.9.0",
       "category": "productivity",
-      "keywords": ["sales-deck", "b2b-sales", "discovery-interview", "proposal", "catalog", "offer", "render-review"],
+      "keywords": [
+        "sales-deck",
+        "b2b-sales",
+        "discovery-interview",
+        "proposal",
+        "catalog",
+        "offer",
+        "render-review"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-catalog.git"
@@ -54,9 +85,20 @@
     {
       "name": "gaspol-video",
       "description": "Carries a promotional video from an idea to a finished, mixed file: brainstorm, A/V script with a 7-beat arc, NB2 image prompts, video prompts for VEO 3.1 / Seedance 2.0 / Kling 3.0, Remotion shots for the scenes that must be readable because no video platform renders legible text, then five post-production passes (ElevenLabs voice-over, ffmpeg assembly under an A/V duration gate, domain-aware SFX with a measured audibility gate, captions whose text comes from the script, a music bed that ducks under the voice) and packaging: one locked title, three thumbnail bets on different levers, one description.",
-      "version": "3.21.0",
+      "version": "3.21.1",
       "category": "productivity",
-      "keywords": ["video", "veo", "seedance", "kling", "nano-banana", "remotion", "elevenlabs", "ffmpeg", "post-production", "promotional-video"],
+      "keywords": [
+        "video",
+        "veo",
+        "seedance",
+        "kling",
+        "nano-banana",
+        "remotion",
+        "elevenlabs",
+        "ffmpeg",
+        "post-production",
+        "promotional-video"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-video.git"
@@ -67,7 +109,24 @@
       "description": "End-to-end job-hunting pipeline: discover roles from ATS APIs, boards and LinkedIn, score them against a runtime-supplied candidate profile, write a CV and cover letter for one specific job description, draft recruiter outreach as a Gmail draft or .eml fallback, and promote the roles worth pursuing into a self-hosted jobsync tracker over MCP. Never auto-applies and never submits a form. Nothing candidate-specific ships in the plugin; every personal value arrives at runtime from .jobhunter/config.toml in the user's own project.",
       "version": "0.5.7",
       "category": "productivity",
-      "keywords": ["job-search", "job-hunting", "career", "ats", "greenhouse", "lever", "ashby", "linkedin", "resume", "cv", "cover-letter", "outreach", "jobsync", "firecrawl", "apify", "pipeline"],
+      "keywords": [
+        "job-search",
+        "job-hunting",
+        "career",
+        "ats",
+        "greenhouse",
+        "lever",
+        "ashby",
+        "linkedin",
+        "resume",
+        "cv",
+        "cover-letter",
+        "outreach",
+        "jobsync",
+        "firecrawl",
+        "apify",
+        "pipeline"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-jobhunter.git"
@@ -78,7 +137,16 @@
       "description": "5 skills that write a client-signable Business Requirements Document per IIBA BABOK v3 and ISO/IEC/IEEE 29148, plus the commercial section the client signs (scope, price, payment terms tied to verifiable milestones, acceptance, sign-off): reads your knowledge base first and interviews only the gaps, drafts a full BR -> SR -> FR/NFR trace chain, then an 8-check blocking gate before any .docx is rendered. Never invents a price, a client figure, or a client system name.",
       "version": "0.1.1",
       "category": "productivity",
-      "keywords": ["brd", "business-requirements", "babok", "ieee-29148", "requirements-engineering", "proposal", "docx", "quality-gate"],
+      "keywords": [
+        "brd",
+        "business-requirements",
+        "babok",
+        "ieee-29148",
+        "requirements-engineering",
+        "proposal",
+        "docx",
+        "quality-gate"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-brdwriter.git"
@@ -89,7 +157,16 @@
       "description": "Drafts Indonesian employment contracts (PKWT, PKWTT), freelancer service agreements and an IP / confidentiality attachment (NDA, IP assignment, non-compete) for a software house: interviews the facts, decides the right contract type from the facts rather than the title, drafts from a clause library where every clause carries a cited Indonesian legal basis, and a blocking gate rejects fragile or unlawful clauses before a PDF and DOCX are rendered. 5 skills, 42-clause library backed by NotebookLM research, output PDF and DOCX on letterhead. Specific to PT INDUSIA; the PKWT basis must be re-researched once a new UU Ketenagakerjaan is issued.",
       "version": "0.1.2",
       "category": "productivity",
-      "keywords": ["kontrak", "ketenagakerjaan", "pkwt", "freelancer", "nda", "hki", "indonesia", "quality-gate"],
+      "keywords": [
+        "kontrak",
+        "ketenagakerjaan",
+        "pkwt",
+        "freelancer",
+        "nda",
+        "hki",
+        "indonesia",
+        "quality-gate"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-kontrakkerja.git"
@@ -100,7 +177,14 @@
       "description": "Fleet and transport domain advisor: consult it while designing a fleet module or drafting a proposal, catalog or sales film for a trucking, freight-forwarding, bus or heavy-equipment prospect. One entry skill plus two reviewer agents (deck, spec) over a researched knowledge base: FMS modules and KPIs, tires, workshop and parts, cost per km, tender pricing, adoption, enhance-vs-replace. Private repository.",
       "version": "0.3.0",
       "category": "productivity",
-      "keywords": ["fleet-management", "trucking", "logistics", "domain-advisor", "proposal-review", "spec-review"],
+      "keywords": [
+        "fleet-management",
+        "trucking",
+        "logistics",
+        "domain-advisor",
+        "proposal-review",
+        "spec-review"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/gaspol-fleetadvisor.git"
