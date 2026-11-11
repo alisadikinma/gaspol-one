@@ -43,7 +43,7 @@
     {
       "name": "gaspol-catalog",
       "description": "7 skills orchestrating B2B sales catalogs and offer decks for operations buyers, not investors: reads your own knowledge base first and interviews only the gaps, then storyline, then master catalog once, per-prospect variant many times, a visual phase that authors the render prompts, a two-layer blocking gate that reviews the text AND the rendered image, and a finish phase that writes what was learned back. Inherits the adversarial review engine from gaspol-pitch and swaps the rubric.",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "category": "productivity",
       "keywords": ["sales-deck", "b2b-sales", "discovery-interview", "proposal", "catalog", "offer", "render-review"],
       "source": {
@@ -108,8 +108,8 @@
     },
     {
       "name": "gaspol-upwork",
-      "description": "Upwork freelancer autopilot with a human on the trigger: screens new jobs in Upwork prime time through the official Upwork MCP, scores each against your own expertise bank (requirement-by-requirement evidence, client reputation from past freelancer reviews, client quality, competition), drafts a JD-specific cover letter and attachment for every job scoring 70+, and sends it to Telegram with Submit / Edit / Skip. Never submits without a human tap. Audits the profile and tracks the path to Top Rated. Private repository; design phase.",
-      "version": "0.0.1",
+      "description": "Upwork freelancer autopilot with a human on the trigger: screens new jobs in Upwork prime time through the official Upwork MCP, scores each against your own expertise bank (requirement-by-requirement evidence, client reputation from past freelancer reviews, client quality, competition), drafts a JD-specific cover letter and attachment for every job scoring 70+, and sends it to Telegram with Submit / Edit / Skip. Never submits without a human tap. Audits the profile and tracks the path to Top Rated. Private repository; shadow mode until calibrated.",
+      "version": "0.1.0",
       "category": "productivity",
       "keywords": ["upwork", "freelancing", "proposal", "cover-letter", "job-screening", "telegram", "mcp"],
       "source": {
