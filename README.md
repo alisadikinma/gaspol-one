@@ -17,6 +17,7 @@ Each plugin lives in its own repository; this marketplace only points at them, s
 /plugin install gaspol-brdwriter@gaspol-one
 /plugin install gaspol-kontrakkerja@gaspol-one
 /plugin install gaspol-fleetadvisor@gaspol-one
+/plugin install gaspol-upwork@gaspol-one
 ```
 
 To install from a local checkout instead:
@@ -38,6 +39,7 @@ To install from a local checkout instead:
 | [gaspol-brdwriter](https://github.com/alisadikinma/gaspol-brdwriter) | 0.1.1 | 5 skills for client-signable Business Requirements Documents — BABOK v3 / IEEE 29148 requirements plus the commercial section the client signs. Reads your knowledge base first, interviews only the gaps, drafts a full trace chain, then an 8-check blocking gate before the .docx is rendered. Never invents a price, a client figure, or a system name.
 | [gaspol-kontrakkerja](https://github.com/alisadikinma/gaspol-kontrakkerja) | 0.1.2 | Indonesian employment contracts (PKWT, PKWTT), freelancer agreements and an IP / confidentiality attachment, every clause with a cited legal basis and a blocking gate before PDF + DOCX. Specific to PT INDUSIA. |
 | [gaspol-fleetadvisor](https://github.com/alisadikinma/gaspol-fleetadvisor) | 0.3.0 | Fleet and transport domain advisor — one entry skill and two reviewer agents (deck, spec) over a researched knowledge base: FMS modules and KPIs, tires, workshop and parts, cost per km, tender pricing, adoption, enhance-vs-replace. Private repository. |
+| [gaspol-upwork](https://github.com/alisadikinma/gaspol-upwork) | 0.0.1 | Upwork autopilot with a human on the trigger — prime-time job screening through the official Upwork MCP, evidence-based scoring against your own expertise bank plus client reviews, JD-specific cover letter and attachment for every job scoring 70+, Telegram Submit / Edit / Skip, profile audit and Top Rated tracking. Never auto-submits. Private repository; design phase. |
 
 ## The common thread
 
